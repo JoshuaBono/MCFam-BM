@@ -25,10 +25,6 @@ body {font-family: Arial, Helvetica, sans-serif;}
     background-color: #000;
 }
 
-.active {
-    background-color: #4CAF50;
-}
-
 @media screen and (max-width: 500px) {
     .navbar a {
         float: none;
@@ -36,7 +32,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
     }
 }
 
-/* Carousel */
+/* Gallery */
 * {
     box-sizing: border-box;
 }
@@ -57,6 +53,23 @@ body {font-family: Arial, Helvetica, sans-serif;}
 /* Footer */
 {
     box-sizing: border-box;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    background-color: #142a53;
+    color: #fff;
+}
+
+.footer2 {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    height: 40px;
+    background-color: #000000;
+    color: #fff;
 }
 
 /* Style inputs */
@@ -81,24 +94,25 @@ input[type=submit]:hover {
     background-color: #45a049;
 }
 
-/* Create two columns that float next to eachother */
+/* Create two columns that float next to each other */
 .column1 {
     float: left;
-    width: 50%;
+    width: 55%;
     margin-top: 6px;
     padding: 20px;
 }
 
-/* Create two columns that float next to eachother */
+/* Create two columns that float next to each other */
 .column2 {
     float: right;
-    width: 50%;
+    width: 40%;
     margin-top: 6px;
     padding: 20px;
 }
 
 /* Clear floats after the columns */
 .row1:after {
+    float: bottom;
     content: "";
     display: table;
     clear: both;
@@ -111,3 +125,4 @@ input[type=submit]:hover {
         margin-top: 0;
     }
 }
+
