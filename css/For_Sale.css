@@ -111,3 +111,17 @@ input[type=submit]:hover {
         margin-top: 0;
     }
 }
+
+
+.for-sale-images{
+    height: 250px !important;
+}
+
+.property-container{
+    display: flex;
+    flex: 1;
+}
+.property-item{
+    padding: 10px;
+    
+}
