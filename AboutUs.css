@@ -1,0 +1,57 @@
+/* Top Image*/
+
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(250, 255, 221, 0.94);
+}
+
+.uppercolor {
+    background-color: #2B54B5;
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: center;
+}
+
+.centered {
+    font-size: 500%;
+    font-style: italic;
+    color: #2dddff;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.content {
+    font-size: 250%;
+    text-align: center;
+    color: #000000;
+    float: initial;
+
+}
+
+.content2 {
+    float: initial;
+    font-size: 250%;
+    text-align: center;
+    color: #000000;
+
+}
+.content3 {
+    font-size: 250%;
+    text-align: center;
+    color: #000000;
+    float: initial;
+
+}
+
+.content4 {
+    float: initial;
+    font-size: 250%;
+    text-align: center;
+    color: #000000;
+
+}
