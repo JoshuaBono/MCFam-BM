@@ -66,15 +66,22 @@ footer {
     padding: 5px;
     background-color: #142a53;
     color: #fff;
+    height: 100%;
 }
 
 .footer2 {
     display: flex;
     justify-content: center;
     padding: 5px;
-    height: 40px;
+    height: 7%;
     background-color: #000000;
     color: #fff;
+    bottom: 0;
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    width: 100%;
+    z-index: 1000;
 }
 
 /* Style inputs */
@@ -103,8 +110,9 @@ input[type=submit]:hover {
 .column1 {
     float: left;
     width: 55%;
-    margin-top: 6px;
-    padding: 20px;
+    margin-top: 1%;
+    padding: 3%;
+
 }
 
 /* Create two columns that float next to each other */
@@ -112,7 +120,7 @@ input[type=submit]:hover {
     float: right;
     width: 40%;
     margin-top: 6px;
-    padding: 20px;
+    padding: 3%;
 }
 
 /* Clear floats after the columns */
@@ -141,29 +149,39 @@ input[type=submit]:hover {
     position: center;
 }
 
+.inputsearch [type=text] {
+    width: 80%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-size: 25px;
+    background-image: url('Images/searchicon.png');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
 }
-.topnav .search-container button {
-    float: right;
-    padding: 6px 10px;
-    margin-top: 8px;
-    margin-right: 16px;
-    background: #ddd;
-    font-size: 17px;
-    border: none;
-    cursor: pointer;
+
+input[type=text]:focus {
+    width: 100%;
 }
 
 .centered {
     position: absolute;
-    top: 30%;
-    left: 50%;
+    top: 35%;
+    left: 52%;
+    width: 25%;
     transform: translate(-50%, -50%);
 }
 
 .centered2 {
     position: absolute;
     top: 55%;
-    left: 28%;
+    left: 33%;
+    width: 15%;
     transform: translate(-50%, -50%);
 }
 
@@ -171,13 +189,15 @@ input[type=submit]:hover {
     position: absolute;
     top: 55%;
     left: 50%;
+    width: 15%;
     transform: translate(-50%, -50%);
 }
 
 .centered4 {
     position: absolute;
     top: 58%;
-    left: 70%;
+    left: 67%;
+    width: 15%;
     transform: translate(-50%, -50%);
 }
 

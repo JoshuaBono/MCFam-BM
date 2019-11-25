@@ -25,11 +25,12 @@
 </div>
 
 <div class="hero-image">
-    <div class="search-container">
-        <form class="centered" action="">
-            <input type="text" placeholder="Search.." name="search">
-            <button type="submit"><i class="fa fa-search">Search</i></button>
+    <div class="centered">
+        <div class="inputsearch">
+        <form>
+            <input type="text" name="search" placeholder="Search..">
         </form>
+        </div>
     </div>
 </div>
 
@@ -72,7 +73,6 @@
 </div>
 <div class="centered4">
     <form action="">
-        <input type="text" placeholder="Project Name" name="Pname"><br>
         <input type="text" placeholder="Min Price" name="minp"><br>
         <input type="text" placeholder="Max Price" name="maxp"><br>
         <input type="submit" value="Submit">
@@ -122,22 +122,20 @@
             <div class="column1">
                 <form action="">
                     <h2 style="color:#fff9fc">Contact Us</h2>
-                    <label style="color:#fff9fc" for="fname">First Name :</label>
-                    <input type="text" style="width: 230px" id="fname" name="firstname" placeholder="Your name..">
-                    <label style="color:#fff9fc" for="lname">Last Name :</label>
-                    <input type="text" style="width: 250px" id="lname" name="lastname" placeholder="Your last name..">
-                    <label style="color:#fff9fc" for="mnum">Mobile Number :</label>
-                    <input type="text" style="width: 200px" id="mnum" name="mnum" placeholder="Mobile Number">
-                    <label style="color:#fff9fc" for="email">Email Address :</label>
-                    <input type="text" style="width: 225px" id="email" name="email" placeholder="Email Address">
-                    <label style="color:#fff9fc;width: 400px" for="reason">Reason for Contacting Us</label>
+                    <label style="color:#fff9fc;width: 25%" for="fname">Full Name :</label>
+                    <input type="text" style="width: 100%" id="fname" name="firstname" placeholder="Your name..">
+                    <label style="color:#fff9fc;width: 25%" for="mnum">Mobile Number :</label>
+                    <input type="text" style="width: 100%" id="mnum" name="mnum" placeholder="Mobile Number">
+                    <label style="color:#fff9fc;width: 25%" for="email">Email Address :</label>
+                    <input type="text" style="width: 100%" id="email" name="email" placeholder="Email Address">
+                    <label style="color:#fff9fc;width: 40%" for="reason">Reason for Contacting Us</label>
                     <select id="reason" name="reason">
                         <option value="r1">Inquire About a Property</option>
                         <option value="r2">Ask a Question</option>
                         <option value="r3">Concerns</option>
                     </select>
                     <label style="color:#fff9fc" for="subject">Subject</label>
-                    <textarea id="subject" name="subject" placeholder="Write something.." style="height:120px; width: 700px"></textarea>
+                    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200%; width: 100%"></textarea>
                     <input type="submit" value="Submit">
                 </form>
 
