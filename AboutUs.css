@@ -9,7 +9,7 @@ body, html {
 
 .uppercolor {
     background-color: #2B54B5;
-    height: 50%;
+    height: 70%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -17,16 +17,16 @@ body, html {
 }
 
 .centered {
-    font-size: 500%;
+    font-size: 250%;
     font-style: italic;
     color: #2dddff;
     position: absolute;
-    top: 25%;
+    top: 35%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 .content {
-    font-size: 250%;
+    font-size: 150%;
     text-align: center;
     color: #000000;
     float: initial;
@@ -54,4 +54,53 @@ body, html {
     text-align: center;
     color: #000000;
 
+}
+
+/* Menu Bar*/
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #2B54B5;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.navbar a {
+    float: left;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navbar a:hover {
+    background-color: #000;
+}
+
+@media screen and (max-width: 500px) {
+    .navbar a {
+        float: none;
+        display: block;
+    }
+}
+
+/* footer */
+
+.footer2 {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    height: 7%;
+    background-color: #000000;
+    color: #fff;
+    bottom: 0;
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    width: 100%;
+    z-index: 1000;
 }
