@@ -5,7 +5,7 @@
     <title>BMS</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/For_Sale.css">
+    <link rel="stylesheet" href="css/More_Details.css">
     <script src="Main.java"></script>
 </head>
 <!––- Menu Bar ––->
@@ -22,30 +22,67 @@
 </div>
 <!--- End Menu Bar -->
 
-<!--- More Details of Property ---!>
+<!--- More Details of Property --->
 
-<!-- Intro Section end -->
-<section class="about-section spad">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-6 order-lg-2">
-                <img src="Images/home.jpg" alt="">
-            </div>
-            <div class="col-lg-6 order-lg-1">
-                <div class="about-text">
-                    <h3>A young team that is here to help you get your dream home.</h3>
-                    <p>s</p>
-                    <a href="#" class="readmore-btn">Find out more</a>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- Intro Section end -->
+<!-- Nav bar -->
+<head>
+    <style>
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
 
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover:not(.active) {
+            background-color: #111;
+        }
+
+        .active {
+            background-color: #4CAF50;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li><a href="#overview" style="padding-top:70px">Overview </a></li>
+        <li><a href="#features%amenities" style="padding-top:70px">Features & Amenities</a></li>
+        <li><a href="#location" style="padding-top:70px">Location</a></li>
+        <li style="float:right"><a class="active" href="#about">About</a></li>
+    </ul>
+</body>
 
 <!--- Insert More Details of Property --->
-
+<div classs="for-more-details-container">
+    <div class="about-details-container">
+        <img src="Images/Aldea-del-Sol.png" style="width: 157px; justify-content: center;  display: flex; padding-left: 42px;">
+        <div class="project-type-container">
+        <h6>Project Type:</h6>
+        <h6>House & Lot</h6>
+        </div>
+        <div class="price-range-container">
+            <h6>Price Range</h6>
+            <h6>PHP 1.7 million</h6>
+        </div>
+        <div class="floor-area-container">
+            <h6>Floor Area</h6>
+            <h6>40.31-55.36 sqm e.</h6>
+        </div>
+    </div>
+</div>
 <!-- Footer -->
 <footer>
 
