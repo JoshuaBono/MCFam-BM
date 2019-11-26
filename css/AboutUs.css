@@ -35,13 +35,13 @@ body, html {
 
 .content2 {
     float: initial;
-    font-size: 250%;
+    font-size: 150%;
     text-align: center;
     color: #000000;
 
 }
 .content3 {
-    font-size: 250%;
+    font-size: 150%;
     text-align: center;
     color: #000000;
     float: initial;
@@ -50,7 +50,7 @@ body, html {
 
 .content4 {
     float: initial;
-    font-size: 250%;
+    font-size: 150%;
     text-align: center;
     color: #000000;
 
@@ -103,4 +103,29 @@ body, html {
     overflow: hidden;
     width: 100%;
     z-index: 1000;
+
+
+}/* Create three equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 50%;
 }
+.column2 {
+    float: right;
+    width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other on smaller screens (600px wide or less) */
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
+
