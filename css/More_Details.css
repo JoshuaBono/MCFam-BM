@@ -1,11 +1,12 @@
 
 /* More Details */
-
+.for-more-details-container{
+    padding:5%;
+}
 .project-type-container{
     display: flex;
     justify-content: space-evenly;
     width: 200px;
-
 
 }
 .about-detail-container{
@@ -26,8 +27,26 @@
     width: 200px;
 
 }
+.image-interior-design{
+    float: right;
+    margin-right:10px;
+    margin-bottom: 10px;
+    border:solid black 1px;
+    padding: 2px;
+    height: 173px;
+    width:500px;
+}
 
+.overview-container{
+    background-color: aliceblue;
+    padding: 5%;
+}
 
+.
+
+ul.bullet-form {
+    list-style-type: circle;
+}
 
 
 
