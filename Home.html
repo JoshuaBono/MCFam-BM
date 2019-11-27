@@ -24,7 +24,8 @@
     <a style="float:right" href="">Home</a>
 </div>
 
-<div class="hero-image">
+<div class="hero-image" style="height: 185px;">
+    <div class="search-bar-container">
     <div class="centered">
         <div class="inputsearch">
             <form>
@@ -32,7 +33,7 @@
             </form>
         </div>
     </div>
-</div>
+
 
 <div class="centered2">
     <select>
@@ -78,78 +79,70 @@
         <input type="submit" value="Submit">
     </form>
 </div>
-
+</div>
+</div>
 
 <h1  style="color:#fff9fc;">Our Projects</h1>
 
 <!-- Carousel -->
-<div class="row" >
-    <div class="column">
-        <img src="Images/1.jpg" alt="Unable to View Image" style="width:100%">
+    <div class="our-project-container">
+           <div class="img">
+                <img src="Images/1.jpg" alt="Unable to View Image" style="width:100%">
+                <img src="Images/2.jpg" alt="Unable to View Image" style="width:100%">
+                <img src="Images/3.jpg" alt="Unable to View Image" style="width:100%">
+                <img src="Images/4.jpg" alt="Unable to View Image" style="width:100%">
+                <img src="Images/5.jpg" alt="Unable to View Image" style="width:100%">
+                <img src="Images/6.jpg" alt="Unable to View Image" style="width:100%">
+           </div>
     </div>
-    <div class="column">
-        <img src="Images/2.jpg" alt="Unable to View Image" style="width:100%">
-    </div>
-    <div class="column">
-        <img src="Images/3.jpg" alt="Unable to View Image" style="width:100%">
-    </div>
-    <div class="column">
-        <img src="Images/4.jpg" alt="Unable to View Image" style="width:100%">
-    </div>
-    <div class="column">
-        <img src="Images/5.jpg" alt="Unable to View Image" style="width:100%">
-    </div>
-    <div class="column">
-        <img src="Images/6.jpg" alt="Unable to View Image" style="width:100%">
-    </div>
-</div>
+</body>
+
 
 <!-- Footer -->
-<footer>
+        <footer>
+            <div class="footer-container">
+                <div class="column2">
+                    <h3 style="color:#fff9fc">Sales Hotline</h3>
+                    <p style="color:#fff9fc">(63 917) 522-1136 | (63 920) 471-9132</p>
+                    <h3 style="color:#fff9fc">Blogs</h3>
+                    <p style="color:#fff9fc">How to Properly Inspect a Condominium</p>
+                    <button onclick="window.location.href=''">Read More>></button>
+                    <h3 style="color:#fff9fc" >Newsletter Sign up</h3>
+                    <p style="color:#fff9fc" >Enter your email to stay updated with our new developments and offers</p>
+                    <input type="text" id="mail" name="mail" placeholder="Email Address" style="height:50px; width: 50%">
+                    <input type="submit" value="Submit">
+                </div>
 
-    <div class="column2">
-        <h3 style="color:#fff9fc">Sales Hotline</h3>
-        <p style="color:#fff9fc">(63 917) 522-1136 | (63 920) 471-9132</p>
-        <h3 style="color:#fff9fc">Blogs</h3>
-        <p style="color:#fff9fc">How to Properly Inspect a Condominium</p>
-        <button onclick="window.location.href=''">Read More>></button>
-        <h3 style="color:#fff9fc" >Newsletter Sign up</h3>
-        <p style="color:#fff9fc" >Enter your email to stay updated with our new developments and offers</p>
-        <input type="text" id="mail" name="mail" placeholder="Email Address" style="height:50px; width: 50%">
-        <input type="submit" value="Submit">
-    </div>
+                <div class="column1">
+                    <form action="">
+                        <h2 style="color:#fff9fc">Contact Us</h2>
+                        <label style="color:#fff9fc;width: 25%" for="fname">Full Name :</label>
+                        <input type="text" style="width: 100%" id="fname" name="firstname" placeholder="Your name..">
+                        <label style="color:#fff9fc;width: 25%" for="mnum">Mobile Number :</label>
+                        <input type="text" style="width: 100%" id="mnum" name="mnum" placeholder="Mobile Number">
+                        <label style="color:#fff9fc;width: 25%" for="email">Email Address :</label>
+                        <input type="text" style="width: 100%" id="email" name="email" placeholder="Email Address">
+                        <label style="color:#fff9fc;width: 40%" for="reason">Reason for Contacting Us</label>
+                            <select id="reason" name="reason">
+                                <option value="r1">Inquire About a Property</option>
+                                <option value="r2">Ask a Question</option>
+                                <option value="r3">Concerns</option>
+                            </select>
+                        <label style="color:#fff9fc" for="subject">Subject</label>
+                        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200%; width: 100%"></textarea>
+                        <input type="submit" value="Submit">
+                    </form>
 
-    <div class="column1">
-        <form action="">
-            <h2 style="color:#fff9fc">Contact Us</h2>
-            <label style="color:#fff9fc;width: 25%" for="fname">Full Name :</label>
-            <input type="text" style="width: 100%" id="fname" name="firstname" placeholder="Your name..">
-            <label style="color:#fff9fc;width: 25%" for="mnum">Mobile Number :</label>
-            <input type="text" style="width: 100%" id="mnum" name="mnum" placeholder="Mobile Number">
-            <label style="color:#fff9fc;width: 25%" for="email">Email Address :</label>
-            <input type="text" style="width: 100%" id="email" name="email" placeholder="Email Address">
-            <label style="color:#fff9fc;width: 40%" for="reason">Reason for Contacting Us</label>
-            <select id="reason" name="reason">
-                <option value="r1">Inquire About a Property</option>
-                <option value="r2">Ask a Question</option>
-                <option value="r3">Concerns</option>
-            </select>
-            <label style="color:#fff9fc" for="subject">Subject</label>
-            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200%; width: 100%"></textarea>
-            <input type="submit" value="Submit">
-        </form>
+                </div>
 
-    </div>
-</footer>
-
-<footer class="footer2">
-    <a style="color:#fff9fc" href="">Copyright © 2019 MCFam |</a>
-    <a style="color:#fff9fc" href="">About Us |</a>
-    <a style="color:#fff9fc" href="">Privacy Policy |</a>
-    <a style="color:#fff9fc" href="">Terms and Condition</a>
-</footer>
+            <div class="footer-copyright-container">
+                <a style="color:#fff9fc" href="">Copyright © 2019 MCFam |</a>
+                <a style="color:#fff9fc" href="">About Us |</a>
+                <a style="color:#fff9fc" href="">Privacy Policy |</a>
+                <a style="color:#fff9fc" href="">Terms and Condition</a>
+            </div>
+                </div>
+      </footer>
 
 
-
-</body>
 </html>
