@@ -1,4 +1,31 @@
 /**/
+/*Home Page CSS*/
+/*Image*/
+.img {
+    display:flex;
+    position: center;
+    width:  320px;
+    height: 320px;
+    background-position: 50% 50%;
+    background-repeat:   no-repeat;
+    background-size:     cover;
+    padding: 5px
+}
+
+.img2 {
+    display:flex;
+    position: center;
+    width:  320px;
+    height: 320px;
+    background-position: 50% 50%;
+    background-repeat:   no-repeat;
+    background-size:     cover;
+    padding: 5px
+}
+
+
+/*END Home page CSS*/
+/*Fixed CSS for header and footer*/
 /*Nav Bar*/
 .topnav {
     /*Font*/
@@ -47,6 +74,7 @@
 /*Search Container*/
 .search-container{
     height: 125px;
+    width: 1423px;
     padding-top: 25px;
     background-size: cover;
     display: flex;
