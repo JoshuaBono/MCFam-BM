@@ -1,5 +1,10 @@
 /**/
 /*Home Page CSS*/
+/*Stars*/
+.checked {
+    color: orange;
+}
+
 /*Image*/
 .img {
     display:flex;
@@ -23,7 +28,7 @@
     padding: 5px
 }
 .carousel-container{
-    padding: 25px;
+    ;
 }
 .title-project{
     padding: 20px 20px 0px;
@@ -96,7 +101,7 @@ body, html {
 /*Search Container*/
 .search-container{
     height: 125px;
-    width: 1423px;
+    width: 1430px;
     padding-top: 25px;
     background-size: cover;
     display: flex;
