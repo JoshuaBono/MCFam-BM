@@ -14,8 +14,14 @@
     text-transform: none;
     /*End Font*/
 
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
     overflow: hidden;
-    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
 }
 
 .topnav a {
@@ -40,10 +46,121 @@
 
 /*Search Container*/
 .search-container{
-    height: 100vh;
+    height: 125px;
+    padding-top: 25px;
     background-size: cover;
-    background: url(Images/SearchBackground.png) center;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("Images/homepage.jpg") no-repeat;
+}
+.search-box{
+    padding: 20px;
+}
+.search-field{
+    margin-left: 50px;
+    height: 20px;
+    padding: 10px;
+    border:none;
+    border-radius:25px;
+    outline:none;
+}
+.search{
+    width:250px;
+}
+#type-filter{
+    margin: 30px 0;
+    padding: 10px 50px 10px 10px;
+    background-color: white;
+    color: black;
+    border-radius:4px;
+    border: 2px solid #fff;
+    width: 150px;
+
+}
+#location-filter{
+    margin: 30px 0;
+    padding: 10px 50px 10px 10px;
+    background-color: white;
+    color: black;
+    border-radius:4px;
+    border: 2px solid #fff;
+    width: 150px;
+}
+
+.search-button{
+    height: 30px;
+    width: 150px;
+    background: lightskyblue;
+    border:none;
+    color: #000000;
+    border-radius:25px
+
+}
+.search-button:hover{
+    background: #2dddff;
+}
+
+
+
+/*End of Search*/
+
+/*Footer*/
+.footer-container{
+    display:flex;
+    padding:10px
+}
+/* information container */
+.information-container{
+    float: right;
+    width: 50%;
+}
+
+
+/*contact-us-container*/
+
+.contact-us-container{
+    float: left;
+    width: 50%;
+}
+
+.name-contact{
+    width: 100%;
+    border:2px solid #aaa;
+    border-radius:4px;
+    margin: 8px 0;
+    outline:none;
+    padding:8px;
+    box-sizing:border-box;
+
+}
+.name-container{
+    display:flex;
+
+}
+
+.other-information-container{
+    display:flex;
+}
+.reason-container{
+    padding: 10px 0px 10px 0;
+    margin-bottom: 10px;
+}
+#reason{
+    background-color: white;
+    color: black;
+    border-radius:4px;
+    border: 2px solid #fff;
+    width: 250px;
+}
+
+#submit-button{
+    height: 30px;
+    width: 150px;
+    background: lightskyblue;
+    border:none;
+    color: #000000;
+    border-radius:25px
+
+}
+#submit-button:hover{
+    background: #2dddff;
 }
