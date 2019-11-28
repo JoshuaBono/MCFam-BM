@@ -45,8 +45,7 @@
 /* Added css*/
 .img {
     display:flex;
-    position: relative;
-    float: left;
+    position: center;
     width:  320px;
     height: 320px;
     background-position: 50% 50%;
@@ -55,7 +54,16 @@
     padding: 5px
 }
 
-
+.img2 {
+    display:flex;
+    position: center;
+    width:  320px;
+    height: 320px;
+    background-position: 50% 50%;
+    background-repeat:   no-repeat;
+    background-size:     cover;
+    padding: 5px
+}
 /* Menu Bar */
 body, html {
     height: 100%;
@@ -167,8 +175,6 @@ input[type=submit]:hover {
 .column1 {
     float: left;
     width: 55%;
-    margin-top: 1%;
-    padding: 3%;
 
 }
 
@@ -176,8 +182,6 @@ input[type=submit]:hover {
 .column2 {
     float: right;
     width: 40%;
-    margin-top: 6px;
-    padding: 3%;
 }
 
 /* Clear floats after the columns */
