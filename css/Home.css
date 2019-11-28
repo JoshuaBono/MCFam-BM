@@ -257,3 +257,17 @@ body, html {
 #submit-button:hover{
     background: #2dddff;
 }
+.footer2 {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    height: 7%;
+    background-color: #000000;
+    color: #fff;
+    bottom: 0;
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    width: 100%;
+    z-index: 1000;
+}
