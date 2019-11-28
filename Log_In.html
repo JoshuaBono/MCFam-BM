@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="css/Log_In.css">
+<script src="Main.java"></script>
+
+<head>
+    <!–– Menu Bar ––>
+    <div class="topnav" style="background-color:#142a53">
+        <img src="Images/mcfamlogo.jpg" alt="Unable to View Image" style="padding: 3px; height: 40px; width: 100px; margin-left: 100px;" >
+        <a style="float:right" href=""><i class="fa fa-fw fa-search"></i></a>
+        <a style="float:right" href="">Login</a>
+        <a style="float:right" href="">Users</a>
+        <a style="float:right" href="ContactUs.html">Contact Us</a>
+        <a style="float:right" href="AboutUs.html">About</a>
+        <a style="float:right" href="For_Lease.html">For Lease</a>
+        <a style="float:right" href="For_Sale.html">For Sale</a>
+        <a style="float:right" href="Home.html">Home</a>
+    </div>
+    <!–– End Menu Bar ––>
+</head>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+
+    </style>
+</head>
+<body>
+
+<h2>Login Form</h2>
+<div class="log-in">
+<form action="/action_page.php" method="post">
+    <div class="imgcontainer">
+        <img src="Images/avatar.png" alt="Avatar" class="avatar">
+    </div>
+
+    <div class="container">
+        <label for="uname"><b>Username</b></label>
+        <input type="text" placeholder="Enter Username" name="uname" required>
+
+        <label for="psw"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" name="psw" required>
+        <div class="container" style="background-color:#f1f1f1">
+        <button type="submit">Login</button>
+        <label>
+            <input type="checkbox" checked="checked" name="remember"> Remember me
+        </label>
+
+        <button type="button" class="cancelbtn">Cancel</button>
+        <span class="psw">Forgot <a href="#">password?</a></span>
+       </div>
+    </div>
+</form>
+</div>
+</body>
+</html>
