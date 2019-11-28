@@ -1,52 +1,10 @@
-/*search filter */
-.search-container{
-    padding-top: 50px;
-}
-.search-filter-container{
-    display: flex;
-    height: 190px;
-    padding-top:20px;
-    padding-left:10px;
-}
-.filter-container{
-    display:flex;
-    width: 150px;
-    padding-left: 100px;
-}
-.second-filter-container {
-    padding-left: 10px
-}
-.filter-price-container{
-
-    height: 10px;
-    padding-top: .5px;
-    padding-left: 10px;
-}
-#filter{
-    width: 150px;
-    height: 30px;
-    padding: 0px;
-}
-#filter1{
-    width: 150px;
-    height: 30px;
-    padding: 0px;
-}
-#filter2{
-    width: 150px;
-    height: 30px;
-    padding: 0px;
-}
-#filter3{
-    width: 150px;
-    height: 30px;
-    padding: 0px;
-}
-/* Added css*/
+/**/
+/*Home Page CSS*/
+/*Image*/
 .img {
     display:flex;
     position: center;
-    width:  320px;
+    max-width: 450px;
     height: 320px;
     background-position: 50% 50%;
     background-repeat:   no-repeat;
@@ -57,230 +15,235 @@
 .img2 {
     display:flex;
     position: center;
-    width:  320px;
+    max-width: 450px;
     height: 320px;
     background-position: 50% 50%;
     background-repeat:   no-repeat;
     background-size:     cover;
     padding: 5px
 }
-/* Menu Bar */
-body, html {
-    height: 100%;
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
+.carousel-container{
+    padding: 25px;
 }
+.title-project{
+    padding: 20px 20px 0px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 25px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    color: #000000;
+    font-weight: normal;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+}
+.featured-img{
+    padding: 10px;
+}
+/*END Home page CSS*/
+/*Fixed CSS for header and footer*/
+/*Nav Bar*/
+.topnav {
+    /*Font*/
+    font-family: Impact, Charcoal, sans-serif;
+    font-size: 20px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    color: #000000;
+    font-weight: normal;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    /*End Font*/
 
-.navbar {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #2B54B5;
     position: fixed;
     top: 0;
     width: 100%;
     z-index: 1000;
 }
 
-.navbar a {
+.topnav a {
     float: left;
-    padding: 12px;
-    color: white;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
 }
 
-.navbar a:hover {
-    background-color: #000;
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
 }
 
-@media screen and (max-width: 500px) {
-    .navbar a {
-        float: none;
-        display: block;
-    }
-}
-
-/* Gallery */
-* {
-    box-sizing: border-box;
-}
-
-.column {
-    float: left;
-    width: 33.33%;
-    padding: 5px;
-}
-
-/* Clearfix (clear floats) */
-.row::after {
-    content: "";
-    clear: both;
-    display: table;
-}
-
-/* Footer */
-{
-    box-sizing: border-box;
-}
-
-footer {
-    display: flex;
-    justify-content: center;
-    padding: 5px;
-    background-color: #142a53;
-    color: #fff;
-    height: 100%;
-}
-
-.footer2 {
-    display: flex;
-    justify-content: center;
-    padding: 5px;
-    height: 7%;
-    background-color: #000000;
-    color: #fff;
-    bottom: 0;
-    list-style-type: none;
-    margin: 0;
-    overflow: hidden;
-    width: 100%;
-    z-index: 1000;
-}
-
-/* Style inputs */
-input[type=text], select, textarea {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical;
-}
-
-input[type=submit] {
+.topnav a.active {
     background-color: #4CAF50;
     color: white;
-    padding: 12px 20px;
-    border: none;
-    cursor: pointer;
 }
+/* End Nav Bar*/
 
-input[type=submit]:hover {
-    background-color: #45a049;
-}
-
-/* Create two columns that float next to each other */
-.column1 {
-    float: left;
-    width: 55%;
-
-}
-
-/* Create two columns that float next to each other */
-.column2 {
-    float: right;
-    width: 40%;
-}
-
-/* Clear floats after the columns */
-.row1:after {
-    float: bottom;
-    content: "";
-    display: table;
-    clear: both;
-}
-
-/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-    .column, input[type=submit] {
-        width: 100%;
-        margin-top: 0;
-    }
-}
-
-/* search bar in image*/
-.hero-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("Images/homepage.jpg");
-    height: 85%;
-    background-position: center;
-    background-repeat: no-repeat;
+/*Search Container*/
+.search-container{
+    height: 125px;
+    width: 1423px;
+    padding-top: 25px;
     background-size: cover;
-    position: center;
+    display: flex;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("Images/homepage.jpg") no-repeat;
 }
-
-.inputsearch [type=text] {
-    width: 80%;
-    box-sizing: border-box;
-    border: 2px solid #ccc;
-    border-radius: 4px;
-    font-size: 16px;
+.search-box{
+    padding: 20px;
+}
+.search-field{
+    margin-left: 50px;
+    height: 20px;
+    padding: 10px;
+    border:none;
+    border-radius:25px;
+    outline:none;
+}
+.search{
+    width:250px;
+}
+#type-filter{
+    margin: 30px 0;
+    padding: 10px 50px 10px 10px;
     background-color: white;
-    background-size: 25px;
-    background-image: url('Images/searchicon.png');
-    background-position: 10px 10px;
-    background-repeat: no-repeat;
-    padding: 12px 20px 12px 40px;
-    -webkit-transition: width 0.4s ease-in-out;
-    transition: width 0.4s ease-in-out;
+    color: black;
+    border-radius:4px;
+    border: 2px solid #fff;
+    width: 150px;
+
+}
+#location-filter{
+    margin: 30px 0;
+    padding: 10px 50px 10px 10px;
+    background-color: white;
+    color: black;
+    border-radius:4px;
+    border: 2px solid #fff;
+    width: 150px;
 }
 
-input[type=text]:focus {
+.search-button{
+    height: 30px;
+    width: 150px;
+    background: lightskyblue;
+    border:none;
+    color: #000000;
+    border-radius:25px
+
+}
+.search-button:hover{
+    background: #2dddff;
+}
+
+/*End of Search*/
+
+/*Footer*/
+.footer-container{
+    display:flex;
+    padding:10px
+}
+/* information container */
+.information-container{
+    float: right;
+    width: 50%;
+}
+
+#submit-button{
+    height: 30px;
+    width: 150px;
+    background: lightskyblue;
+    border:none;
+    color: #000000;
+    border-radius:25px
+
+}
+#submit-button:hover{
+    background: #2dddff;
+
+}
+
+#blog-button{
+     height: 30px;
+     width: 150px;
+     background: lightskyblue;
+     border:none;
+     color: #000000;
+     border-radius:25px
+
+ }
+#blog-button:hover{
+    background: #2dddff;
+}
+
+
+#subscribe-button{
+    height: 30px;
+    width: 150px;
+    background: lightskyblue;
+    border:none;
+    color: #000000;
+    border-radius:25px
+
+}
+#subscribe-button:hover{
+    background: #2dddff;
+}
+
+/*contact-us-container*/
+
+.contact-us-container{
+    float: left;
+    width: 50%;
+}
+
+.name-contact{
     width: 100%;
-}
+    border:2px solid #aaa;
+    border-radius:4px;
+    margin: 8px 0;
+    outline:none;
+    padding:8px;
+    box-sizing:border-box;
 
-.centered {
-    position: absolute;
-    top: 35%;
-    left: 52%;
-    width: 25%;
-    transform: translate(-50%, -50%);
 }
-
-.centered2 {
-    position: absolute;
-    top: 55%;
-    left: 33%;
-    width: 15%;
-    transform: translate(-50%, -50%);
-}
-
-.centered3 {
-    position: absolute;
-    top: 55%;
-    left: 50%;
-    width: 15%;
-    transform: translate(-50%, -50%);
-}
-
-.centered4 {
-    position: absolute;
-    top: 58%;
-    left: 67%;
-    width: 15%;
-    transform: translate(-50%, -50%);
-}
-
-.topnav .search-container button:hover {
-    background: #ccc;
+.name-container{
+    display:flex;
 
 }
 
-@media screen and (max-width: 600px) {
-    .topnav .search-container {
-        float: none;
-    }
-    .topnav a, .topnav input[type=text], .topnav .search-container button {
-        float: none;
-        display: block;
-        text-align: left;
-        width: 100%;
-        margin: 0;
-        padding: 14px;
-    }
-    .topnav input[type=text] {
-        border: 1px solid #ccc;
-    }
+.other-information-container{
+    display:flex;
+}
+.reason-container{
+    padding: 10px 0px 10px 0;
+    margin-bottom: 10px;
+}
+#reason{
+    background-color: white;
+    color: black;
+    border-radius:4px;
+    border: 2px solid #fff;
+    width: 250px;
 }
 
+#submit-button{
+    height: 30px;
+    width: 150px;
+    background: lightskyblue;
+    border:none;
+    color: #000000;
+    border-radius:25px
+
+}
+#submit-button:hover{
+    background: #2dddff;
+}
