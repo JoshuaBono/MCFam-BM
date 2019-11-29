@@ -10,6 +10,7 @@
     flex: .5;
     align-self: center;
     color: white;
+
 }
 
 .menu-container {
@@ -91,9 +92,9 @@
 
 .model-logo {
     height: 150px;
-    width: 100%;
+    width: 120px;
     background: lightgray;
-    margin-bottom: 20px;
+    margin-bottom:40px;
 }
 
 .model-detail {
@@ -127,5 +128,9 @@
 
 .item-left {
     flex: 1;
-    background: lightgray;
+
+}
+
+.carousel-container{
+    padding-left: 30px;
 }

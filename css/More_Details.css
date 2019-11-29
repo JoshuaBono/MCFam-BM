@@ -1,59 +1,140 @@
-
-/* More Details */
-.for-more-details-container{
-    padding:5%;
-}
-.project-type-container{
+.header-container.container-fluid {
     display: flex;
-    justify-content: space-evenly;
-    width: 200px;
+    justify-content: space-between;
+    padding: 0% 5%;
+    background: darkblue;
+    height: 80px;
+}
+
+.logo-container {
+    flex: .5;
+    align-self: center;
+    color: white;
 
 }
-.about-detail-container{
+
+.menu-container {
+    flex: 1;
     display: flex;
-    justify-content:  space-evenly;
-    width: 200px;
-
+    align-self: center;
+    justify-content: space-between;
 }
-.price-range-container{
+
+.menu-item {
+    flex: 1;
+    font-weight: 800;
+    text-align: center;
+}
+
+.menu-item a {
+    color: white !important;
+}
+
+/** Body CSS */
+.body-items-container {
+    padding: 2px 10%;
+}
+
+.body-items-container:first-child {
     display: flex;
-    justify-content:  space-evenly;
-    width: 200px;
-
+    flex-direction: row;
 }
-.floor-area-container{
+
+.space-column {
+    min-width: 50px;
+    width: 50px;
     display: flex;
-    justify-content:  space-evenly;
-    width: 200px;
-
-}
-.image-interior-design{
-    float: right;
-    margin-right:10px;
-    margin-bottom: 10px;
-    border:solid black 1px;
-    padding: 2px;
-    height: 173px;
-    width:500px;
+    flex-direction: column;
 }
 
-.overview-container{
-    background-color: aliceblue;
-    padding: 5%;
+.empty-top {
+    flex: .2;
+    border-right: 5px solid lightblue;
+    border-bottom: 5px solid lightblue;
+    min-height: 51px;
+    max-height: 51px;
 }
 
-.
-
-ul.bullet-form {
-    list-style-type: circle;
+.empty-bottom {
+    flex: 1;
+    border-right: 5px solid lightblue;
 }
 
-/*Fixed CSS for header and footer*/
-body, html {
-    height: 100%;
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
+.logo-column {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
 }
+
+.items-top {
+    display: flex;
+    flex: .2;
+    border-bottom: 5px solid lightblue;
+    padding: 12.5px;
+    min-height: 51px;
+    max-height: 51px;
+}
+
+.top-item {
+    padding-right: 20px;
+}
+
+.items-bottom {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+}
+
+.item-right {
+    flex: .3;
+    padding: 10px 3%;
+}
+
+.model-logo {
+    height: 150px;
+    width: 120px;
+    background: lightgray;
+    margin-bottom:40px;
+}
+
+.model-detail {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.detail-label {
+    flex: 1;
+    color: lightblue;
+    font-weight: 700;
+}
+
+.detail-value {
+    flex: 1;
+}
+
+.action-container {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.action-container button {
+    background: darkblue;
+    color: white;
+    border: none;
+    height: 40px;
+    width: 100px;
+}
+
+.item-left {
+    flex: 1;
+
+}
+
+.carousel-container{
+    padding-left: 30px;
+}
+
 /*Nav Bar*/
 .topnav {
     /*Font*/
@@ -98,164 +179,3 @@ body, html {
     color: white;
 }
 /* End Nav Bar*/
-
-/*Search Container*/
-.search-container{
-    height: 125px;
-    width: 1430px;
-    padding-top: 25px;
-    background-size: cover;
-    display: flex;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("Images/homepage.jpg") no-repeat;
-}
-.search-box{
-    padding: 20px;
-}
-.search-field{
-    margin-left: 50px;
-    height: 20px;
-    padding: 10px;
-    border:none;
-    border-radius:25px;
-    outline:none;
-}
-.search{
-    width:250px;
-}
-#type-filter{
-    margin: 30px 0;
-    padding: 10px 50px 10px 10px;
-    background-color: white;
-    color: black;
-    border-radius:4px;
-    border: 2px solid #fff;
-    width: 150px;
-
-}
-#location-filter{
-    margin: 30px 0;
-    padding: 10px 50px 10px 10px;
-    background-color: white;
-    color: black;
-    border-radius:4px;
-    border: 2px solid #fff;
-    width: 150px;
-}
-
-.search-button{
-    height: 30px;
-    width: 150px;
-    background: lightskyblue;
-    border:none;
-    color: #000000;
-    border-radius:25px
-
-}
-.search-button:hover{
-    background: #2dddff;
-}
-
-/*End of Search*/
-
-/*Footer*/
-.footer-container{
-    display:flex;
-    padding:10px
-}
-/* information container */
-.information-container{
-    float: right;
-    width: 50%;
-}
-
-#submit-button{
-    height: 30px;
-    width: 150px;
-    background: lightskyblue;
-    border:none;
-    color: #000000;
-    border-radius:25px
-
-}
-#submit-button:hover{
-    background: #2dddff;
-
-}
-
-#blog-button{
-    height: 30px;
-    width: 150px;
-    background: lightskyblue;
-    border:none;
-    color: #000000;
-    border-radius:25px
-
-}
-#blog-button:hover{
-    background: #2dddff;
-}
-
-
-#subscribe-button{
-    height: 30px;
-    width: 150px;
-    background: lightskyblue;
-    border:none;
-    color: #000000;
-    border-radius:25px
-
-}
-#subscribe-button:hover{
-    background: #2dddff;
-}
-
-/*contact-us-container*/
-
-.contact-us-container{
-    float: left;
-    width: 50%;
-}
-
-.name-contact{
-    width: 100%;
-    border:2px solid #aaa;
-    border-radius:4px;
-    margin: 8px 0;
-    outline:none;
-    padding:8px;
-    box-sizing:border-box;
-
-}
-.name-container{
-    display:flex;
-
-}
-
-.other-information-container{
-    display:flex;
-}
-.reason-container{
-    padding: 10px 0px 10px 0;
-    margin-bottom: 10px;
-}
-#reason{
-    background-color: white;
-    color: black;
-    border-radius:4px;
-    border: 2px solid #fff;
-    width: 250px;
-}
-
-#submit-button{
-    height: 30px;
-    width: 150px;
-    background: lightskyblue;
-    border:none;
-    color: #000000;
-    border-radius:25px
-
-}
-#submit-button:hover{
-    background: #2dddff;
-}
-
