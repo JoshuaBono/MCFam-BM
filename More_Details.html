@@ -117,64 +117,114 @@
         </div>
     </div>
     <div class="body-items-container">
-        <div class="amenities-details">
-            <div class="items-header">
-                <h2>Features & Amenities</h2>
+        <div class="amenities-body-container" style="display:flex;">
+            <div class="amenities-details">
+                <div class="items-header">
+                    <h2>Features & Amenities</h2>
+                </div>
+                <div class="item-list">
+                    <ul>
+                        <li>Roof Deck Homes</li>
+                        <li>24- hour Security</li>
+                        <li>Landscaped Entrance</li>
+                        <li>Cabana</li>
+                        <li>Swimming Pool</li>
+                        <li>Gazebo</li>
+                        <li>Children's Playground</li>
+                        <li>Basketball Court</li>
+                    </ul>
+                </div>
             </div>
-            <div class="item-list">
-                <ul>
-                    <li>Roof Deck Homes</li>
-                    <li>24- hour Security</li>
-                    <li>Landscaped Entrance</li>
-                    <li>Cabana</li>
-                    <li>Swimming Pool</li>
-                    <li>Gazebo</li>
-                    <li>Children's Playground</li>
-                    <li>Basketball Court</li>
-                </ul>
+            <div class="amenities-image">
+                <img src="Images/playground.jpg" style="    float: right;
+    height: 150px;
+    margin-left: 100px;
+    width: 400px;
+}">
             </div>
-        </div>
-        <div class="amenities-image">
-            <img src="Images/playground.jpg">
         </div>
     </div>
     <div class="body-items-container">
-        <div class="location-img">
-            <img src="Images/Map.jpg">
-            <a href="#">Click Here to Enlarge</a>
-        </div>
-        <div class="location-details">
-            <div class="items-header">
-                <H2>Location</H2>
+        <div class="location-container">
+            <div class="location-img">
+                <img src="Images/Map.jpg">
+                <a href="#">Click Here to Enlarge</a>
             </div>
-            <div class="location-details-header">
-                <h3>How to get there</h3>
-            </div>
-            <div class="location-details-content">
-                <p>Taking the Basak-Marigondon road turn left at Kadugoy. Upon reaching Pajac intersection turn left towards Bankal then turn right at Soong road to reach Aldea Del Sol</p>
-                <p>Aldea del Sol is located at Bankal, Lapu-Laput City, Cebu</p>
-            </div>
-            <div class="location-details-header">
-                <h3>Landmarks</h3>
-            </div>
-            <div class="item-list">
-                <ul>
-                    <li>Blue Water Maribago- 2.9km</li>
-                    <li>Shangri-La- 4.7km</li>
-                    <li>Mactan Shrine- 4km</li>
-                    <li>Gaisano Grand Mall- 10.5km</li>
-                    <li>Marigondon- 5.4km</li>
-                    <li>Mactan Doctors Hospital- 4.5km</li>
-                    <li>Mactan- Cebu International Airport- 7km</li>
-                    <li>Marcelo Ferman Bridge- 8.3km</li>
-                </ul>
+            <div class="location-details">
+                <div class="items-header">
+                    <H2>Location</H2>
+                </div>
+                <div class="location-details-header">
+                    <h3>How to get there</h3>
+                </div>
+                <div class="location-details-content">
+                    <p>Taking the Basak-Marigondon road turn left at Kadugoy. Upon reaching Pajac intersection turn left towards Bankal then turn right at Soong road to reach Aldea Del Sol</p>
+                    <p>Aldea del Sol is located at Bankal, Lapu-Laput City, Cebu</p>
+                </div>
+                <div class="location-details-header">
+                    <h3>Landmarks</h3>
+                </div>
+                <div class="item-list">
+                    <ul>
+                        <li>Blue Water Maribago- 2.9km</li>
+                        <li>Shangri-La- 4.7km</li>
+                        <li>Mactan Shrine- 4km</li>
+                        <li>Gaisano Grand Mall- 10.5km</li>
+                        <li>Marigondon- 5.4km</li>
+                        <li>Mactan Doctors Hospital- 4.5km</li>
+                        <li>Mactan- Cebu International Airport- 7km</li>
+                        <li>Marcelo Ferman Bridge- 8.3km</li>
+                    </ul>
+                </div>
             </div>
         </div>
     </div>
     <div class="body-items-container"></div>
 </div>
 </body>
-<footer>
+<footer style="background-color: steelblue; width: 100%;" >
+    <div class="footer-container">
+        <div class="information-container">
 
+            <h3 style="color:#fff9fc">Sales Hotline</h3>
+            <p style="color:#fff9fc">(63 917) 522-1136 | (63 920) 471-9132</p>
+            <div class="blogs-container">
+                <h3 style="color:#fff9fc">Blogs</h3>
+                <p style="color:#fff9fc">How to Properly Inspect a Condominium</p>
+                <button onclick="window.location.href=''" id="blog-button">Read More</button>
+            </div>
+            <h3 style="color:#fff9fc" >Newsletter Sign up</h3>
+            <p style="color:#fff9fc" >Enter your email to stay updated with our new developments and offers</p>
+            <input type="text" id="mail" name="mail" placeholder="Email Address" style="height:50px; width: 50%">
+            <input type="submit" id="subscribe-button" value="Subscribe">
+
+        </div>
+        <div class="contact-us-container">
+            <form action="">
+                <h2 style="color:#fff9fc">Contact Us</h2>
+                <div class="name-container">
+                    <input type="text" class="name-contact" placeholder="First Name *">
+                    <input type="text" class="name-contact" placeholder="Last Name *">
+                </div>
+                <div class="other-information-container">
+                    <input type="text" class="name-contact" placeholder="Mobile Number">
+                    <input type="text"class="name-contact" placeholder="Email Address *">
+                </div>
+                <div class="reason-container">
+                    <label style="color:#fff9fc;" for="reason">Reason for Contacting Us</label>
+                    <select id="reason" name="reason" style="margin-left: 50px;">
+                        <option value="r1">Inquire About a Property</option>
+                        <option value="r2">Ask a Question</option>
+                        <option value="r3">Concerns</option>
+                    </select>
+                </div>
+                <div class="message-text-area-container">
+                    <textarea id="subject" name="subject" placeholder="Message" style="height:100%; width:100%"></textarea>
+                </div>
+                <input type="submit" id="submit-button" value="Submit">
+            </form>
+        </div>
+
+    </div>
 </footer>
 </html>

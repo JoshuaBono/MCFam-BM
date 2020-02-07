@@ -9,7 +9,7 @@
 .img {
     display:flex;
     position: center;
-    max-width: 450px;
+    max-width: 400px;
     height: 320px;
     background-position: 50% 50%;
     background-repeat:   no-repeat;
@@ -20,7 +20,7 @@
 .img2 {
     display:flex;
     position: center;
-    max-width: 450px;
+    max-width: 400px;
     height: 320px;
     background-position: 50% 50%;
     background-repeat:   no-repeat;
@@ -46,6 +46,42 @@
 .featured-img{
     padding: 10px;
 }
+/*////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+}
+
+.img-1:hover .overlay {
+    opacity: 1;
+}
+
+.text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
 /*END Home page CSS*/
 /*Fixed CSS for header and footer*/
 body, html {
@@ -101,7 +137,7 @@ body, html {
 /*Search Container*/
 .search-container{
     height: 125px;
-    width: 1430px;
+    width: 100%;
     padding-top: 25px;
     background-size: cover;
     display: flex;

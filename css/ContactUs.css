@@ -111,12 +111,13 @@ body, html {
 
 /*Footer*/
 .footer-container{
-    display:flex;
+    text-align: center;
+    margin-left: 30%;
     padding:10px
 }
 /* information container */
 .information-container{
-    float: right;
+
     width: 50%;
 }
 
@@ -164,7 +165,6 @@ body, html {
 /*contact-us-container*/
 
 .contact-us-container{
-    float: left;
     width: 50%;
 }
 

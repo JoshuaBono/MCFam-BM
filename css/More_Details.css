@@ -1,3 +1,14 @@
+.location-container{
+    display:flex;
+    padding:10px
+}
+.location-img{
+    text-align: center;
+}
+.location-details{
+    margin-left: 20px;
+}
+
 .header-container.container-fluid {
     display: flex;
     justify-content: space-between;
@@ -31,6 +42,9 @@
 }
 
 /** Body CSS */
+.body-container{
+    padding-top: 60px;
+}
 .body-items-container {
     padding: 2px 10%;
 }
@@ -179,3 +193,119 @@
     color: white;
 }
 /* End Nav Bar*/
+
+/*Footer*/
+.footer-container{
+    display:flex;
+    padding:10px
+}
+/* information container */
+.information-container{
+    float: right;
+    width: 50%;
+}
+
+#submit-button{
+    height: 30px;
+    width: 150px;
+    background: lightskyblue;
+    border:none;
+    color: #000000;
+    border-radius:25px
+
+}
+#submit-button:hover{
+    background: #2dddff;
+
+}
+
+#blog-button{
+    height: 30px;
+    width: 150px;
+    background: lightskyblue;
+    border:none;
+    color: #000000;
+    border-radius:25px
+
+}
+#blog-button:hover{
+    background: #2dddff;
+}
+
+
+#subscribe-button{
+    height: 30px;
+    width: 150px;
+    background: lightskyblue;
+    border:none;
+    color: #000000;
+    border-radius:25px
+
+}
+#subscribe-button:hover{
+    background: #2dddff;
+}
+
+/*contact-us-container*/
+
+.contact-us-container{
+    float: left;
+    width: 50%;
+}
+
+.name-contact{
+    width: 100%;
+    border:2px solid #aaa;
+    border-radius:4px;
+    margin: 8px 0;
+    outline:none;
+    padding:8px;
+    box-sizing:border-box;
+
+}
+.name-container{
+    display:flex;
+
+}
+
+.other-information-container{
+    display:flex;
+}
+.reason-container{
+    padding: 10px 0px 10px 0;
+    margin-bottom: 10px;
+}
+#reason{
+    background-color: white;
+    color: black;
+    border-radius:4px;
+    border: 2px solid #fff;
+    width: 250px;
+}
+
+#submit-button{
+    height: 30px;
+    width: 150px;
+    background: lightskyblue;
+    border:none;
+    color: #000000;
+    border-radius:25px
+
+}
+#submit-button:hover{
+    background: #2dddff;
+}
+.footer2 {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    height: 7%;
+    background-color: #000000;
+    color: #fff;
+    bottom: 0;
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    width: 100%;
+    z-index: 1000;
+}

@@ -124,7 +124,7 @@ body, html {
 /*Search Container*/
 .search-container{
     height: 125px;
-    width: 1423px;
+    width:100%;
     padding-top: 25px;
     background-size: cover;
     display: flex;
