@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="css/Add_Project.css">
+<script src="Main.java"></script>
+
+<head>
+    <!–– Menu Bar ––>
+    <div class="topnav" style="background-color:#142a53">
+        <img src="Images/mcfamlogo.jpg" alt="Unable to View Image" style="padding: 3px; height: 40px; width: 100px; margin-left: 100px;" >
+        <a style="float:right" href=""><i class="fa fa-fw fa-search"></i></a>
+        <a style="float:right" href="Add_Account.html">Add Account</a>
+        <a style="float:right" href="Add_Project.html">Add Project</a>
+        <a style="float:right" href="Log_In.html">Login</a>
+        <a style="float:right" href="">Users</a>
+        <a style="float:right" href="ContactUs.html">Contact Us</a>
+        <a style="float:right" href="AboutUs.html">About</a>
+        <a style="float:right" href="For_Lease.html">For Lease</a>
+        <a style="float:right" href="For_Sale.html">For Sale</a>
+        <a style="float:right" href="Home.html">Home</a>
+    </div>
+    <!–– End Menu Bar ––>
+</head>
+
+<div class="body-container ">
+    <div class="body-items-container">
+        <div class="header-add-project">
+            <h2>Add Project</h2>
+            <hr>
+            <hr>
+        </div>
+        <div class="information-details">
+
+            <h4>Project Title: <input type="text" class="name-contact" placeholder=""></h4>
+            <h4>Project Type:
+                <select id="for-filter">
+                <option value="For Sale">For Sale</option>
+                <option value="For Lease">For Lease</option>
+                </select></h4>
+             <h4>Property Type:
+                 <select id="type-filter">
+                 <option value="Type">Type</option>
+                 <option value="Condominium">Condominium</option>
+                 <option value="Apartment">Apartment</option>
+                 <option value="House and Lot">House and Lot</option>
+             </select></h4>
+            <h4>Property Size:<input type="text" class="name-contact" placeholder=""></h4>
+            <h4>Location <select id="location-filter">
+                <option value="Location">Select Location</option>
+                <option value="Bulacan">Bulacan</option>
+                <option value="Pasig">Pasig</option>
+                <option value="Cainta">Cainta</option>
+                <option value="Cavite">Cavite</option>
+                <option value="NCR">NCR</option>
+                <option value="Batanes">Batanes</option>
+            </select></h4>
+            <h4>Exact Location: <input type="text" class="name-contact" placeholder=""></h4>
+            <hr>
+        </div>
+    </div>
+
+    <div class="body-items-container">
+        <div class="details-container">
+            <div class="header-details">
+                <h3>Project Details</h3>
+            </div>
+            <div class="details-body">
+                <h4>Overview:</h4>
+                <input type="text" class="name-contact" placeholder=""style="width:100%; height:100px;">
+                <h4>Features & Amenities<select id="fa-filter">
+                    <option value="Enabled">Enabled</option>
+                    <option value="Disabled">Disabled</option>
+                </select></h4>
+                <input type="text" class="name-contact" placeholder=""style="width:100%; height:100px;">
+            </div>
+
+        </div>
+    </div>
+
+    <div class="body-items-container">
+        <div class="image-header">
+            <hr>
+            <h3>Images</h3>
+        </div>
+        <div class="image-container">
+            <div class="logo-project">
+                <h4>Logo Upload:<select id="logo-upload-filter">
+                    <option value="Enabled">Enabled</option>
+                    <option value="Disabled">Disabled</option>
+                </select></h4>
+                <img src="">
+                <button onclick="location.href =' More_Details.html';" class="button3" href="More_Details.html">Upload</button>
+            </div>
+            <div class="images-upload">
+                <h4>Highlight Images:<select id="image-upload-filter">
+                    <option value="Enabled">Enabled</option>
+                    <option value="Disabled">Disabled</option>
+                </select></h4>
+                <img src="">
+                <button onclick="location.href =' More_Details.html';" class="button3" href="More_Details.html">Upload</button>
+            </div>
+            <div class="carousel-upload-container">
+                <h4>Carousel Images:<select id="carousel-upload-filter">
+                    <option value="Enabled">Enabled</option>
+                    <option value="Disabled">Disabled</option>
+                </select></h4>
+                <img src="">
+                <button onclick="location.href =' More_Details.html';" class="button3" href="More_Details.html">Upload</button>
+            </div>
+            <div class="map-upload-container">
+                <h4>Map Image:<select id="map-upload-filter">
+                    <option value="Enabled">Enabled</option>
+                    <option value="Disabled">Disabled</option>
+                </select></h4>
+                <img src="">
+                <button onclick="location.href =' More_Details.html';" class="button3" href="More_Details.html">Upload</button>
+            </div>
+            </div>
+        <hr>
+        </div>
+
+
+    <div class="body-items-container">
+        <div class="submit-widget" style="float: right; padding:16px;">
+            <button class="submit-widget" type="button">Submit</button>
+        </div>
+    </div>
+
+
+
+</div>
+
+</div>
+
+</html>

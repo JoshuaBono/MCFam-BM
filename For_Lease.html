@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<title>BMS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="css/For_Lease.css">
+<script src="Main.java"></script>
+<head>
+    <!–– Menu Bar ––>
+    <div class="topnav" style="background-color:#142a53">
+        <img src="Images/mcfamlogo.jpg" alt="Unable to View Image" style="padding: 3px; height: 40px; width: 100px; margin-left: 100px;" >            <a style="float:right" href=""><i class="fa fa-fw fa-search"></i></a>
+        <a style="float:right" href="">Login</a>
+        <a style="float:right" href="">Users</a>
+        <a style="float:right" href="ContactUs.html">Contact Us</a>
+        <a style="float:right" href="AboutUs.html">About</a>
+        <a style="float:right" href="For_Lease.html">For Lease</a>
+        <a style="float:right" href="For_Sale.html">For Sale</a>
+        <a style="float:right" href="Home.html">Home</a>
+    </div>
+    <!–– End Menu Bar ––>
+    <!–– Search ––>
+    <div class="search-container" >
+        <div class="search-box">
+            <input type="text" class="search-field search" placeholder="Search" >
+            <select id="for-filter">
+                <option value="For Sale">For Sale</option>
+                <option value="For Lease">For Lease</option>
+            </select>
+            <select id="type-filter">
+                <option value="Type">Type</option>
+                <option value="Condominium">Condominium</option>
+                <option value="Apartment">Apartment</option>
+                <option value="House and Lot">House and Lot</option>
+            </select>
+            <select id="location-filter">
+                <option value="Location">Location</option>
+                <option value="Bulacan">Bulacan</option>
+                <option value="Pasig">Pasig</option>
+                <option value="Cainta">Cainta</option>
+                <option value="Cavite">Cavite</option>
+                <option value="NCR">NCR</option>
+                <option value="Batanes">Batanes</option>
+            </select>
+            <button class="search-button" type="button">Search</button>
+        </div>
+    </div>
+</head>
+<!–– End Search ––>
+
+<body style="background-color: #bea9fd;">
+<!-- Property Section -->
+<div class="property-section" >
+
+    <div class="section-title" style="padding-left: 25px;font-variant: all-small-caps;">
+        <h2 class="title-project">For Lease</h2>
+    </div>
+    <hr style="border: solid;
+         color: #7144f7;">
+    <hr style="border: solid;
+         color: #7144f7;">
+    <div class="property-container">
+        <div class="property-item">
+            <div class="pi-image">
+                <img src="Images/For_Lease/1.jpeg"class="image">
+                <div class="pi-badge new"><h3>Aldea del Sol</h3></div>
+            </div>
+            <h5>PHP 1.7M- 2.7m</h5>
+            <h5>40.31-53.6 sqm</h5>
+            <button class="button3">Find out more</button>
+        </div>
+        <div class="property-item-2">
+            <div class="property-item">
+                <div class="pi-image">
+                    <img src="Images/For_Lease/2.jpg"class="image">
+                    <div class="pi-badge new"><h3>Sun Residence</h3></div>
+                </div>
+                <h5>PHP 1.2M- 3.8m</h5>
+                <h5>40.31-57.6 sqm</h5>
+                <button class="button3">Find out more</button>
+            </div>
+        </div>
+        <div class="property-item-3">
+            <div class="property-item">
+                <div class="pi-image">
+                    <img src="Images/For_Lease/3.png"class="image">
+                    <div class="pi-badge new"><h3>Moon Residence</h3></div>
+                </div>
+                <h5>PHP 1.7M- 2.7m</h5>
+                <h5>40.31-53.6 sqm</h5>
+                <button class="button3">Find out more</button>
+            </div>
+        </div>
+    </div>
+    <hr style="border: solid;
+         color: #7144f7;">
+    <hr style="border: solid;
+         color: #7144f7;">
+</div>
+</body>
+<!-- Property Section end -->
+<footer style="background-color: steelblue;  width: 100%;">
+    <div class="footer-container">
+        <div class="information-container">
+
+            <h3 style="color:#fff9fc">Sales Hotline</h3>
+            <p style="color:#fff9fc">(63 917) 522-1136 | (63 920) 471-9132</p>
+            <div class="blogs-container">
+                <h3 style="color:#fff9fc">Blogs</h3>
+                <p style="color:#fff9fc">How to Properly Inspect a Condominium</p>
+                <button onclick="window.location.href=''" id="blog-button">Read More</button>
+            </div>
+            <h3 style="color:#fff9fc" >Newsletter Sign up</h3>
+            <p style="color:#fff9fc" >Enter your email to stay updated with our new developments and offers</p>
+            <input type="text" id="mail" name="mail" placeholder="Email Address" style="height:50px; width: 50%">
+            <input type="submit" id="subscribe-button" value="Subscribe">
+
+        </div>
+        <div class="contact-us-container">
+            <form action="">
+                <h2 style="color:#fff9fc">Contact Us</h2>
+                <div class="name-container">
+                    <input type="text" class="name-contact" placeholder="First Name *">
+                    <input type="text" class="name-contact" placeholder="Last Name *">
+                </div>
+                <div class="other-information-container">
+                    <input type="text" class="name-contact" placeholder="Mobile Number">
+                    <input type="text"class="name-contact" placeholder="Email Address *">
+                </div>
+                <div class="reason-container">
+                    <label style="color:#fff9fc;" for="reason">Reason for Contacting Us</label>
+                    <select id="reason" name="reason" style="margin-left: 50px;">
+                        <option value="r1">Inquire About a Property</option>
+                        <option value="r2">Ask a Question</option>
+                        <option value="r3">Concerns</option>
+                    </select>
+                </div>
+                <div class="message-text-area-container">
+                    <textarea id="subject" name="subject" placeholder="Message" style="height:100%; width:100%"></textarea>
+                </div>
+                <input type="submit" id="submit-button" value="Submit">
+            </form>
+        </div>
+    </div>
+</footer>
+
+</html>
